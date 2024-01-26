@@ -26,7 +26,6 @@ export const MenuItems = [
     {
         title : "Call Us",
         url : "/call",
-        cName : "nav-links-mobile",
-        icon : "fa-solid fa-phone"
+        cName : "nav-links-mobile"
     },
 ]
