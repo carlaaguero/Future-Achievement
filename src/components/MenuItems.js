@@ -25,7 +25,7 @@ export const MenuItems = [
     },
     {
         title : "Call Us",
-        url : "/call",
+        url : "tel://00966550870588",
         cName : "nav-links-mobile"
     },
 ]
