@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
-import ContactImg from "../assets/contact.jpg"
+import ContactImg from "../assets/home.jpg"
+import Footer from "../components/Footer"
+
 
 function Contact (){
     return(
@@ -12,6 +14,7 @@ function Contact (){
            title="Contact"
            btnClass="hide"
         />
+        <Footer />
        </>
     )
 }

@@ -24,8 +24,9 @@ export const MenuItems = [
         icon : "fa-solid fa-address-book"
     },
     {
-        title : "Call Us",
+        title : "",
         url : "tel://00966550870588",
-        cName : "nav-links-mobile"
+        cName : "nav-links-mobile",
+        icon : "fa-solid fa-phone"
     },
 ]

@@ -28,7 +28,7 @@ class Navbar extends Component {
 
                         );
                     })}
-                    <a href="tel:+966550870588"><button> Call Us</button></a>
+                    <a href="tel:+966550870588"><button> <i class="fa-solid fa-phone"></i></button></a>
                 </ul>
             </nav>
         );
