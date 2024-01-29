@@ -15,7 +15,7 @@ function Home (){
             title="Future Achievement"
             text="Make your vision a reality!"
             buttonText="Contact us"
-            url="/"
+            url="/contact"
             btnClass="show"
          />
          <About />

@@ -30,20 +30,20 @@ const Footer = () =>{
             </div>
             <div>
                 <h4>Community</h4>
-                <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+                <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
                 <a href="/clients">Our Clients</a>
 
                 
             </div>
             <div>
                 <h4>Help</h4>
-                <a href="/services">Contact Us</a>
+                <a href="/contact">Contact Us</a>
                 <a href="tel:+966550870588">Call Us</a>
             </div>
             <div>
                 <h4>Others</h4>
                 <a href="/contact">Terms of Services</a>
-                <a href="/s">License</a>
+                <a href="/contact">License</a>
             </div>
 
             </div> 
