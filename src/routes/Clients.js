@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import ClientsImg from "../assets/clients-2.jpg"
 import Footer from "../components/Footer"
+import ClientSec from "../components/ClientSec"
 
 
 function Clients (){
@@ -14,6 +15,7 @@ function Clients (){
             title="Clients"
             btnClass="hide"
          />
+         <ClientSec />
          <Footer />
         </>
     )

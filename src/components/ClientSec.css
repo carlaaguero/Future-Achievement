@@ -1,0 +1,30 @@
+.clientsec-container {
+    margin: 4rem 6rem;
+    text-align: justify;
+    justify-content: center;
+}
+
+
+.clientsec-container h1 {
+    padding-bottom: 1rem;
+}
+
+.clientsec-container p {
+    padding-bottom: 2rem;
+}
+
+.carousel-title {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:850px) {
+    .clientsec-container {
+        margin: 4rem 2rem;
+    }
+
+    .clientsec-container h1 {
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}
