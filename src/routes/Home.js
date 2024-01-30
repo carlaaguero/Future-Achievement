@@ -15,7 +15,7 @@ function Home (){
             title="Future Achievement"
             text="Make your vision a reality!"
             buttonText="Contact us"
-            url="/contact"
+            url="tel:+966550870588"
             btnClass="show"
          />
          <About />
