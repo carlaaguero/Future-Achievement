@@ -19,6 +19,34 @@
     width: 60px;
     height: 60px;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.language-button {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #38a393;
+    color: #fff;
+    cursor: pointer;
+    width: auto; 
+    position: absolute;
+    top: 50%;
+    left: 110px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.language-button:hover {
+    background-color: #2c7d76;
+}
+
+.language-button i {
+    margin-right: 5px;
 }
 
 .nav-menu {
@@ -53,7 +81,7 @@
     display: none;
 }
 
-button {
+.phone-button {
     padding: 0.5rem 2.5rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -62,9 +90,11 @@ button {
     border: none;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    background-color: #f0f0f0;
+    color: #151516;
 }
 
-button:hover {
+.phone-button:hover {
     background-color: #151516;
     color: #fff;
 }
@@ -73,9 +103,9 @@ button:hover {
     display: none;
 }
 
-/* ========= Responsive design =========*/
+/* Responsive design */
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 950px){
     .NavbarItems{
         z-index: 99;
     }
@@ -115,7 +145,11 @@ button:hover {
         transition: none;
     }
 
-    button {
+   .phone-button {
+        display: none;
+    }
+
+    .language-button {
         display: none;
     }
 
@@ -144,5 +178,4 @@ button:hover {
         font-size: 1.2rem;
         color: #222;
     }
-
 }
