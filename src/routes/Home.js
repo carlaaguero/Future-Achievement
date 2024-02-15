@@ -4,6 +4,7 @@ import HomeImg from "../assets/home.jpg"
 import About from "../components/About"
 import Services from "../components/ServicesHome"
 import Team from "../components/Team"
+import Clients from "../components/ClientsHome"
 import Footer from "../components/Footer"
 
 function Home (){
@@ -22,6 +23,7 @@ function Home (){
          <About />
          <Services />
          <Team />
+         <Clients />
          <Footer />
         </>
     )

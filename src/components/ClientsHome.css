@@ -1,0 +1,30 @@
+.clientshome-container {
+    padding: 50px;
+    background-image: url('../assets/clients-2.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    margin: 4rem 0;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+
+.carousel-home-title {
+    text-align: center;
+    font-size: 3rem;
+}
+.clientshome-container p {
+    margin-bottom: 6rem;
+}
+
+@media screen and (max-width:850px) {
+    
+    .carousel-home-title {
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}
