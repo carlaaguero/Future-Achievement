@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import HomeImg from "../assets/home.jpg"
 import About from "../components/About"
+import Services from "../components/ServicesHome"
 import Team from "../components/Team"
 import Footer from "../components/Footer"
 
@@ -19,6 +20,7 @@ function Home (){
             btnClass="show"
          />
          <About />
+         <Services />
          <Team />
          <Footer />
         </>
