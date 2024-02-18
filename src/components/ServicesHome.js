@@ -3,6 +3,8 @@ import ServicesHomeData from "./ServicesHomeData"
 import SERV1 from "../assets/serv-1.jpg"
 import SERV2 from "../assets/servi-2.jpg"
 import SERV3 from "../assets/serv-3.jpg"
+import { Link } from 'react-router-dom'
+
 
 function ServicesHome() {
     return (
@@ -24,8 +26,7 @@ function ServicesHome() {
                 />
             </div>
             <div className="button-services">
-            <a href="/services"><button>More Details</button></a>
-            </div>
+            <Link to="/services"><button>More Details</button></Link></div>
         </div>
     );
 }
