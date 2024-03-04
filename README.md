@@ -27,3 +27,5 @@ npm install
 npm start
 
 For inquiries or business opportunities, please contact ceo@fa-trd.com.
+
+**[Website](https://fa-trd.com/)**
