@@ -28,6 +28,12 @@ class Navbar extends Component {
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked });
     };
+    
+    handleLinkClick = () => {
+        if (window.location.hash !== '#/') {
+            window.scrollTo(0, 0);
+        }
+    };
 
     render() {
         const { isMobile, clicked } = this.state;
@@ -40,7 +46,7 @@ class Navbar extends Component {
                         <img src={logo} className="logo" alt="Future Archievement Logo" />
                     </a>
                     {!isMobile && (
-                        <a href="https://futureachievement.netlify.app/" className="language-button">
+                        <a href="https://fa-trd.com/" className="language-button">
                             <i className="fa-solid fa-globe"></i>
                             AR
                         </a>
@@ -52,7 +58,7 @@ class Navbar extends Component {
                 <ul className={clicked ? "nav-menu active" : "nav-menu"}>
                     {MenuItems.map((item, index) => (
                         <li key={index}>
-                            <Link className={item.cName} to={item.url}>
+                            <Link className={item.cName} to={item.url} onClick={this.handleLinkClick}>
                                 <i className={item.icon}></i>
                                 {item.title}
                             </Link>

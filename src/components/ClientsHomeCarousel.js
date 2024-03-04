@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import "./ClientsHomeCarousel.css";
-import icon1 from "../assets/icon-1.png";
-import icon2 from "../assets/icon-2.png";
-import icon3 from "../assets/icon-3.png";
-import icon4 from "../assets/icon-4.png";
-import icon5 from "../assets/icon-5.png";
-import icon6 from "../assets/icon-6.png";
-import icon7 from "../assets/icon-7.png";
-import icon8 from "../assets/icon-8.png";
-import icon9 from "../assets/icon-9.png";
-import icon10 from "../assets/icon-10.png";
-import icon11 from "../assets/icon-11.png";
+import React, { useState, useEffect } from 'react'
+import "./ClientsHomeCarousel.css"
+import icon1 from "../assets/icon-1.png"
+import icon2 from "../assets/icon-2.png"
+import icon3 from "../assets/icon-3.png"
+import icon4 from "../assets/icon-4.png"
+import icon5 from "../assets/icon-5.png"
+import icon6 from "../assets/icon-6.png"
+import icon7 from "../assets/icon-7.png"
+import icon8 from "../assets/icon-8.png"
+import icon9 from "../assets/icon-4.png"
+import icon10 from "../assets/icon-10.png"
+import icon11 from "../assets/icon-11.png"
 
 function ClientsHomeCarousel() {
   const [logos, setLogos] = useState([]);

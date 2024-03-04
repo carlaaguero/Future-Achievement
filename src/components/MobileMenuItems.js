@@ -25,7 +25,7 @@ export const MobileMenuItems = [
     },
     {
         title: "Switch to Arabic",
-        url: "https://futureachievement.netlify.app/",
+        url: "https://fa-trd.com/",
         cName: "nav-links",
         icon: "fa-solid fa-globe"
     },

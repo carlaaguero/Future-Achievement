@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import HomeImg from "../assets/home.jpg"
@@ -8,6 +9,15 @@ import Clients from "../components/ClientsHome"
 import Footer from "../components/Footer"
 
 function Home (){
+    useEffect(() => {
+        if (window.location.hash === "#team-section") {
+            const teamSectionElement = document.getElementById('team-section');
+            if (teamSectionElement) {
+                teamSectionElement.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    }, []);
+    
     return(
         <>
          <Navbar />
@@ -17,12 +27,14 @@ function Home (){
             title="Future Achievement"
             text="Make your vision a reality!"
             buttonText="Contact us"
-            url="tel:+966550870588"
+            url="/contact"
             btnClass="show"
          />
          <About />
          <Services />
-         <Team />
+         <div id="team-section">
+            <Team />
+         </div>         
          <Clients />
          <Footer />
         </>
